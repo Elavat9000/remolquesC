@@ -331,12 +331,12 @@ export const successStories = [
 ];
 
 export const statistics = [
-  { number: "500+", label: "Active Members", icon: "ri-user-line" },
-  { number: "50+", label: "Expert Trainers", icon: "ri-user-star-line" },
-  { number: "10k+", label: "Classes Completed", icon: "ri-calendar-check-line" },
-  { number: "5k+", label: "Pounds Lost", icon: "ri-line-chart-line" },
-  { number: "98%", label: "Satisfaction Rate", icon: "ri-heart-line" },
-  { number: "15+", label: "Years Experience", icon: "ri-award-line" },
+  { number: "230+", label: "Servicios de Remolque Realizados", icon: "ri-truck-line" },
+  { number: "24/7", label: "Atención Disponible", icon: "ri-time-line" },
+  { number: "20+", label: "Años de Experiencia", icon: "ri-award-line" },
+  { number: "100+", label: "Clientes Empresariales", icon: "ri-building-line" },
+  { number: "98%", label: "Clientes Satisfechos", icon: "ri-thumb-up-line" },
+  { number: "50+", label: "Unidades en Operación", icon: "ri-steering-2-line" },
 ];
 
 export const fullSchedule = {
