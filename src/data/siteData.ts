@@ -62,7 +62,7 @@ export const contactInfo = [
 export const navigation = [
   { name: "Bienvenidos", href: "/" },
   { name: "Acerca de nosotros", href: "/about" },
-  { name: "Nuestros Productos", href: "/classes" }
+  { name: "Nuestros Productos", href: "/productos" }
 ];
 
 export const features = [
