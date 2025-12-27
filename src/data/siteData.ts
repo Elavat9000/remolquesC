@@ -1,9 +1,9 @@
 export const siteData = {
   name: "Concaresa Remolques",
-  tagline: "Impulsa tu Carga, Impulsa tu Negocio",
-  description: "Remolques diseñados para trabajar tan duro como tú",
-  address: "Aquiles Serdán S/N, Barrio San Marcos, Zumpango, 55600, Estado de México.",
-  phones: [
+  tagline: "Impulsa tu carga, impulsa tu negocio",
+  description: "Fabricamos remolques resistentes, diseñados para trabajar tan duro como tú",
+  Direccion: "Aquiles Serdán S/N, Barrio San Marcos, Zumpango, 55600, Estado de México.",
+  Telefonos: [
     "+52 56 3412 2027",
     "+52 591 917 6097",
     "+52 591 917 6098",
@@ -28,15 +28,15 @@ export const socialLinks = [
 export const contactInfo = [
   {
     icon: "ri-map-pin-line",
-    title: "Address",
-    content: siteData.address,
+    title: "Dirección",
+    content: siteData.Direccion,
     link: null,
   },
 
   {
     icon: "ri-phone-line",
-    title: "Phone",
-    content: siteData.phones, // 👈 ahora es array
+    title: "Teléfonos",
+    content: siteData.Telefonos, // 👈 ahora es array
     link: "tel",
   },
 
@@ -98,74 +98,69 @@ export const features = [
   },
 ];
 
+
+import remolque12 from "../assets/remolques_12.jpg";
+import remolque13 from "../assets/cajassecas_14.jpg";
+import remolque14 from "../assets/remolques_02.jpg";
+
+
 export const classes = [
   {
-    name: "HIIT Training",
-    description: "High-intensity interval training for maximum calorie burn",
-    detailedDescription: "Push your limits with our high-intensity interval training. This class alternates between intense bursts of activity and fixed periods of rest, maximizing calorie burn and improving cardiovascular fitness. Perfect for those looking to torch calories and build endurance.",
-    duration: "45 min",
-    difficulty: "Advanced",
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop&q=80",
-    benefits: ["Burn up to 600 calories", "Improve cardiovascular health", "Build endurance", "Time-efficient workout"],
-    trainer: "Mike Chen",
-    whatToExpect: "Dynamic movements, short rest periods, high energy atmosphere",
+    name: "Remolque Caja Baja",
+    description: "Ideal para transporte seguro de mercancía general",
+    detailedDescription:
+      "El remolque de caja seca está diseñado para proteger tu carga de las condiciones climáticas y del exterior. Es una solución confiable para el transporte de mercancía general, logística y distribución, ofreciendo resistencia, durabilidad y seguridad en cada recorrido.",
+    duration: "Capacidad estándar",
+    difficulty: "Uso Comercial o Personal",
+    image: remolque12,
+    benefits: [
+      "Protección total de la carga",
+      "Alta durabilidad estructural",
+      "Ideal para logística y reparto",
+      "Bajo mantenimiento",
+    ],
+    trainer: "Desde $MXN 25,000 – $MXN 100,000",
+    whatToExpect:
+      "Estructura reforzada, acabados de calidad, diseño pensado para trabajo continuo",
   },
   {
-    name: "Yoga & Flexibility",
-    description: "Improve flexibility, balance, and mental wellness",
-    detailedDescription: "Find your inner peace while improving flexibility and strength. Our yoga classes combine traditional poses with modern techniques to enhance balance, reduce stress, and increase mobility. Suitable for all levels, from beginners to advanced practitioners.",
-    duration: "60 min",
-    difficulty: "All Levels",
-    image: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&h=600&fit=crop&q=80",
-    benefits: ["Increase flexibility", "Reduce stress", "Improve balance", "Enhance mental clarity"],
-    trainer: "Sarah Johnson",
-    whatToExpect: "Gentle stretches, breathing exercises, meditation, peaceful environment",
+    name: "Remolque Caja Seca",
+    description: "Versatilidad y resistencia para carga pesada",
+    detailedDescription:
+      "El remolque tipo plataforma es perfecto para transportar maquinaria, materiales de construcción y cargas de gran volumen. Su diseño abierto permite una carga y descarga rápida, manteniendo estabilidad y resistencia en todo momento.",
+    duration: "Capacidad media y pesada",
+    difficulty: "Uso Industrial",
+    image: remolque13,
+    benefits: [
+      "Alta capacidad de carga",
+      "Fácil carga y descarga",
+      "Estructura robusta",
+      "Versátil para distintos usos",
+    ],
+    trainer: "Desde $MXN 210,000 – $MXN 599,000",
+    whatToExpect:
+      "Chasis reforzado, superficie antideslizante y excelente estabilidad en carretera",
   },
   {
-    name: "Strength Training",
-    description: "Build muscle and increase strength with guided workouts",
-    detailedDescription: "Build lean muscle and increase your strength with our comprehensive strength training program. Our expert trainers guide you through proper form and technique using free weights, machines, and bodyweight exercises. Perfect for building a strong, toned physique.",
-    duration: "60 min",
-    difficulty: "Intermediate",
-    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop&q=80",
-    benefits: ["Build muscle mass", "Increase strength", "Improve bone density", "Boost metabolism"],
-    trainer: "John Smith",
-    whatToExpect: "Progressive weight training, form correction, personalized guidance",
-  },
-  {
-    name: "Cardio Blast",
-    description: "Heart-pumping cardio session to boost your endurance",
-    detailedDescription: "Get your heart pumping with our high-energy cardio class. Combining various cardio exercises including running, jumping, and dance movements, this class will boost your endurance, improve heart health, and help you shed those extra pounds.",
-    duration: "45 min",
-    difficulty: "All Levels",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&q=80",
-    benefits: ["Improve heart health", "Burn calories", "Boost endurance", "Increase energy levels"],
-    trainer: "Mike Chen",
-    whatToExpect: "Energetic music, varied movements, supportive group atmosphere",
-  },
-  {
-    name: "Pilates",
-    description: "Core strengthening and body alignment exercises",
-    detailedDescription: "Strengthen your core and improve your posture with our Pilates classes. Focus on controlled movements that target deep core muscles, improve alignment, and enhance overall body awareness. Great for rehabilitation and building long, lean muscles.",
-    duration: "50 min",
-    difficulty: "All Levels",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop&q=80",
-    benefits: ["Strengthen core", "Improve posture", "Enhance flexibility", "Reduce back pain"],
-    trainer: "Sarah Johnson",
-    whatToExpect: "Controlled movements, focus on form, mind-body connection",
-  },
-  {
-    name: "CrossFit",
-    description: "Functional movements performed at high intensity",
-    detailedDescription: "Experience the ultimate functional fitness challenge with our CrossFit classes. Combining weightlifting, gymnastics, and cardio, each workout is different and designed to push you to new limits. Build strength, endurance, and mental toughness.",
-    duration: "60 min",
-    difficulty: "Advanced",
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop&q=80",
-    benefits: ["Build functional strength", "Improve all-around fitness", "Challenge yourself", "Join a community"],
-    trainer: "John Smith",
-    whatToExpect: "Varied workouts, high intensity, supportive community, measurable progress",
+    name: "Remolque Punto de venta",
+    description: "Diseñado para el transporte seguro de ganado",
+    detailedDescription:
+      "El remolque ganadero está fabricado para garantizar la seguridad y el bienestar de los animales durante el traslado. Cuenta con ventilación adecuada, materiales resistentes y un diseño que facilita la limpieza y el manejo.",
+    duration: "Capacidad variable",
+    difficulty: "Uso Comercial",
+    image: remolque14,
+    benefits: [
+      "Ventilación adecuada",
+      "Materiales resistentes",
+      "Fácil limpieza",
+      "Diseño seguro",
+    ],
+    trainer: "Desde $MXN 70,000 – $MXN 130,000",
+    whatToExpect:
+      "Diseño funcional, puertas seguras y acabados pensados para uso rudo",
   },
 ];
+
 
 export const pricingPlans = [
   {
@@ -210,84 +205,75 @@ export const pricingPlans = [
 
 export const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Member for 2 years",
-    content: "FitZone has completely transformed my fitness journey. The trainers are amazing and the community is so supportive!",
+    name: "Luis Pérez",
+    role: "Cliente de Caja Baja",
+    content: "El remolque de Caja Baja superó mis expectativas. Es resistente, estable y perfecto para transportar maquinaria pesada sin complicaciones.",
     rating: 5,
   },
   {
-    name: "Mike Chen",
-    role: "Member for 1 year",
-    content: "Best gym in town! The equipment is top-notch and the 24/7 access fits perfectly with my schedule.",
+    name: "Ana Morales",
+    role: "Cliente de Caja Seca",
+    content: "La Caja Seca nos dio la seguridad que necesitábamos para nuestra mercancía. Excelente calidad, buen acabado y entrega puntual.",
     rating: 5,
   },
   {
-    name: "Emily Rodriguez",
-    role: "Member for 6 months",
-    content: "I love the variety of classes offered. The HIIT sessions are intense but so rewarding. Highly recommend!",
+    name: "Roberto Castillo",
+    role: "Cliente Punto de Venta",
+    content: "El remolque Punto de Venta es práctico y muy funcional. Me ha ayudado a llevar mi negocio a más lugares y atraer más clientes.",
     rating: 5,
   },
 ];
 
+
+
+
 export const facilities = [
   {
-    title: "Cardio Zone",
-    description: "State-of-the-art treadmills, ellipticals, and bikes",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&q=80",
+    title: "Caja Baja",
+    description: "Ideal para el traslado de maquinaria pesada, estructuras y cargas de gran volumen",
+    image: remolque12,
+    
   },
   {
-    title: "Strength Training",
-    description: "Comprehensive free weights and machines",
-    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop&q=80",
+    title: "Caja Seca",
+    description: "Transporte seguro de mercancía protegida contra clima, polvo y humedad",
+    image: remolque13,
   },
   {
-    title: "Group Class Studio",
-    description: "Spacious studio for yoga, HIIT, and more",
-    image: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=800&h=600&fit=crop&q=80",
+    title: "Food Trucks",
+    description: "Remolques tipo food truck listos para que inicies tu negocio de comida desde el primer día",
+    image: remolque14,
   },
-  {
-    title: "Locker Rooms",
-    description: "Clean, modern facilities with showers",
-    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop&q=80",
-  },
-  {
-    title: "Functional Training",
-    description: "TRX, battle ropes, and functional equipment",
-    image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&h=600&fit=crop&q=80",
-  },
-  {
-    title: "Recovery Zone",
-    description: "Stretching area and foam rollers",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&q=80",
-  },
+
 ];
 
 export const faqs = [
   {
-    question: "Do I need to be fit to join?",
-    answer: "Not at all! We welcome members of all fitness levels. Our trainers will help you start at your own pace and gradually build your strength and endurance.",
+    question: "¿Qué tipo de remolque necesito para mi negocio?",
+    answer: "Depende del uso que le darás. La Caja Baja es ideal para maquinaria o cargas pesadas, la Caja Seca protege mercancía del clima y el Punto de Venta es perfecto para ventas móviles y eventos.",
   },
   {
-    question: "What should I bring to the gym?",
-    answer: "Just bring a water bottle, towel, and comfortable workout clothes. We provide all equipment, lockers, and shower facilities.",
+    question: "¿Los remolques están listos para usarse al momento de la entrega?",
+    answer: "Sí, todos los remolques se entregan listos para trabajar, con estructura reforzada y acabados funcionales según el modelo.",
   },
   {
-    question: "Can I try the gym before committing?",
-    answer: "Yes! We offer a free 7-day trial pass so you can experience our facilities, classes, and community before making a commitment.",
+    question: "¿Puedo personalizar mi remolque?",
+    answer: "Claro, ofrecemos opciones de personalización como medidas, colores, rotulación y adaptaciones especiales según tus necesidades.",
   },
   {
-    question: "Are personal trainers included?",
-    answer: "Personal training is available as an add-on service. Premium and Elite memberships include consultation sessions, and Elite members get unlimited personal training.",
+    question: "¿Qué capacidad de carga tienen los remolques?",
+    answer: "La capacidad varía según el modelo. Las Cajas Bajas soportan cargas pesadas, mientras que las Cajas Secas y Puntos de Venta están diseñados para un equilibrio entre carga y movilidad.",
   },
   {
-    question: "What are your operating hours?",
-    answer: "We're open 24/7 for Premium and Elite members. Basic members have access during staffed hours (5 AM - 11 PM).",
+    question: "¿Requieren algún tipo de mantenimiento especial?",
+    answer: "El mantenimiento es sencillo: revisión periódica de llantas, frenos, luces y estructura. Con cuidados básicos, el remolque tiene una larga vida útil.",
   },
   {
-    question: "Is there parking available?",
-    answer: "Yes, we have free parking available for all members. The parking lot is well-lit and secure.",
+    question: "¿Puedo circular con el remolque en carretera?",
+    answer: "Sí, nuestros remolques cumplen con los requisitos básicos para circular en carretera. Recomendamos verificar normativas locales y contar con placas y permisos correspondientes.",
   },
 ];
+
 
 export const classSchedule = [
   { time: "6:00 AM", class: "HIIT Training", trainer: "Mike Chen" },
@@ -299,36 +285,36 @@ export const classSchedule = [
   { time: "6:00 PM", class: "CrossFit", trainer: "John Smith" },
   { time: "7:00 PM", class: "Yoga & Flexibility", trainer: "Sarah Johnson" },
 ];
-
 export const successStories = [
   {
-    name: "Jessica Martinez",
-    age: 32,
-    duration: "8 months",
-    result: "Lost 45 lbs",
-    story: "I was skeptical at first, but FitZone changed my life. The supportive trainers and community kept me motivated. I've never felt better!",
-    beforeImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80",
-    afterImage: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=600&fit=crop&q=80",
+    name: "Carlos Hernández",
+    age: 41,
+    duration: "3 months",
+    result: "Aumentó su capacidad de carga",
+    story: "Compré una Caja Seca para mi negocio de construcción y fue la mejor decisión. Ahora transporto maquinaria pesada sin problemas y mis entregas son más rápidas y seguras.",
+    beforeImage: "https://images.unsplash.com/photo-1655668539536-96108193b14f?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    afterImage: "https://images.unsplash.com/photo-1499147463149-adc471bbc639?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    name: "David Thompson",
-    age: 28,
-    duration: "6 months",
-    result: "Gained 20 lbs muscle",
-    story: "The strength training program and nutrition guidance helped me build the physique I always wanted. The trainers are true professionals.",
-    beforeImage: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400&h=600&fit=crop&q=80",
-    afterImage: "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400&h=600&fit=crop&q=80",
+    name: "María González",
+    age: 36,
+    duration: "2 months",
+    result: "Mejor control y protección de su mercancía",
+    story: "La Caja Baja nos permitió transportar productos sin riesgos por clima o robos. Desde el primer mes notamos menos pérdidas y mayor confianza de nuestros clientes.",
+    beforeImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0EVCAqZ-gdd6in6df7fO8i0X_OKzyEaawrg&s",
+    afterImage: "https://images.unsplash.com/photo-1698998882426-39a6609ab10a?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   },
   {
-    name: "Lisa Anderson",
-    age: 35,
-    duration: "1 year",
-    result: "Completed first marathon",
-    story: "From never running to completing a marathon - FitZone's cardio programs and group classes gave me the endurance and confidence I needed.",
-    beforeImage: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=600&fit=crop&q=80",
-    afterImage: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=600&fit=crop&q=80",
+    name: "José Ramírez",
+    age: 29,
+    duration: "1 month",
+    result: "Incrementó sus ventas",
+    story: "Adquirí un remolque Punto de Venta y empecé a vender en ferias y eventos. Es práctico, llamativo y funcional. Recuperé la inversión más rápido de lo que esperaba.",
+    beforeImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd2JU8j6djaA94ChlGO1xV457BQYmyLSArhQ&s",
+    afterImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdJ1R_VLO1K4CKiJw0UECG8bqMqHHjD8Qxw&s",
   },
 ];
+
 
 export const statistics = [
   { number: "230+", label: "Servicios de Remolque Realizados", icon: "ri-truck-line" },
@@ -450,37 +436,36 @@ export const trainers = [
     certifications: ["CrossFit Level 2", "Functional Movement Specialist", "Olympic Lifting Coach"],
   },
 ];
-
 export const history = [
   {
-    year: "2009",
-    title: "Founded",
-    description: "FitZone Gym was founded with a vision to create an inclusive fitness community where everyone feels welcome.",
+    year: "2005",
+    title: "Inicio de Concaresa Carrocería",
+    description: "Concaresa comienza su trayectoria con el objetivo de ofrecer soluciones de carrocería y transporte confiables, sentando las bases de más de 20 años de experiencia en el sector.",
   },
   {
-    year: "2012",
-    title: "First Expansion",
-    description: "Expanded facilities to include a dedicated group class studio and added 20+ new pieces of equipment.",
+    year: "2010",
+    title: "Crecimiento y Diversificación",
+    description: "La empresa amplía su catálogo de productos, incorporando una amplia variedad de soluciones en carrocería y remolques para distintas industrias.",
   },
   {
     year: "2015",
-    title: "24/7 Access",
-    description: "Introduced 24/7 access for Premium and Elite members, making fitness accessible around the clock.",
+    title: "Consolidación en el Mercado",
+    description: "Concaresa se consolida como una marca reconocida por su calidad, resistencia y compromiso con cada uno de sus clientes.",
   },
   {
-    year: "2018",
-    title: "500 Members Milestone",
-    description: "Reached 500 active members and expanded our trainer team to 20 certified professionals.",
+    year: "2019",
+    title: "Alta Demanda en Remolques",
+    description: "El crecimiento en la línea de remolques genera la necesidad de organizar y especializar esta área para brindar una mejor experiencia a nuestros clientes.",
   },
   {
-    year: "2020",
-    title: "Digital Integration",
-    description: "Launched online class booking and virtual training options to adapt to changing needs.",
+    year: "2023",
+    title: "Nacimiento de Concaresa Remolques",
+    description: "Surge Concaresa Remolques como una filial de Concaresa Carrocería S.A., creada para concentrar y presentar de forma clara nuestra amplia gama de remolques.",
   },
   {
     year: "2024",
-    title: "Award Winner",
-    description: "Recognized as 'Best Gym 2024' by the local fitness community, celebrating 15 years of excellence.",
+    title: "Especialización y Enfoque",
+    description: "Concaresa Remolques se establece como una marca dedicada exclusivamente a remolques, manteniendo la calidad, experiencia y respaldo de más de dos décadas de trabajo.",
   },
 ];
 
